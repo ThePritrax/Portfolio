@@ -1,5 +1,5 @@
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
+// Breakpoints
+/* For small screen */
 @media screen and (max-width: 320px){
     .container{
         margin-left: 1rem;
@@ -21,7 +21,7 @@
     }
 }
 
-/* For medium devices */
+/* For medium screen */
 @media screen and (min-width: 576px){
     .projects__content{
         grid-template-columns: 332px;
@@ -44,7 +44,7 @@
     }
 }
 
-/* For large devices */
+/* For large screen */
 @media screen and (min-width: 992px){
     .container{
         margin-left: auto;
